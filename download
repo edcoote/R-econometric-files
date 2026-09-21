@@ -1,0 +1,25 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+
+# renv
+renv/library/
+renv/staging/
+
+# Data — never commit patient-level data
+data/raw/*
+data/derived/*
+!data/raw/.gitkeep
+!data/derived/.gitkeep
+
+# Output
+output/tables/*
+output/figures/*
+!output/tables/.gitkeep
+!output/figures/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
